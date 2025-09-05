@@ -1,3 +1,4 @@
+import Header from "./components/header"
 import Card from "./components/productCard"
 import data from "/public/data.js"
 
@@ -12,7 +13,8 @@ function App() {
 
  return (
     <>
-    {productElements}
+    <Header/>   
+    <div className="main-content">{productElements}</div>
     </>
   )
 }
