@@ -1,0 +1,45 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  
+}
+
+#root{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-container{
+  background-color: rgba(255, 255, 255, 0.226);
+  max-width: 320px;
+  border-radius: 7px;
+  margin: 20px 10px;
+  box-shadow: 2px 2px 5px rgba(255, 0, 0, 0.25), -2px -2px 5px rgba(0, 0, 255, 0.25);
+}
+
+.card-container img{
+  width: 320px;
+  height: auto;
+}
+
+.card-info{
+  padding: 10px;
+}
+
+.card-info h2{
+  margin: 0%;
+  font-weight: 900;
+}
+
+.card-info h4{
+  font-size: 18px;
+}
